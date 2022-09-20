@@ -1,18 +1,18 @@
 p.speech {
-    text-align: center;
+    text-align: left;
     font-size: small;
     font-style: normal;
     font-display: black;
 }
-p.direction {
-    text-align: center;
+p.directions {
+    text-align: left;
     font-size: smaller;
     font-style: italic;
-    font-display: black;
+    font-display: blue;
     background-color: aquamarine;
 }
 p.Song {
-    text-align: center;
+    text-align: left;
     font-size:normal;
     font-style: serif;
     font-display: black;
@@ -22,10 +22,9 @@ h6.name{
     font-family: 'Times New Roman', Times, serif;
     font-display: black;
 }
-p.direction.hover {
-    background-color:green;
-    font-display: white;
-}
+
+p.directions:hover, p.directions:active {color: red;
+    background-color: white;}
 .LUD {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-display: green;
