@@ -38,5 +38,15 @@ p.directions:hover, p.directions:active {color: red;
 p.chorus {
     font-size: small;
     font-style: italic;
-    font-display: lightgreen;
+    color: lightgreen;
+}
+table.table {
+    border: 1cm;
+    color: black;
+    text-align: center;
+    padding: 50px;
+  margin: 20px;
+}
+tr:nth-child(odd) {
+    background-color: #8F9AA5;
 }
